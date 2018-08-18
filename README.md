@@ -1,4 +1,5 @@
-#TZXDuino
+# TZXDuino
+
 
 Arduino based TZX and TAP (currently only ZX spectrum and Amstrad CPC flavour) file player.
 Modified original souce to use LCD 16x2 without I2C
@@ -20,45 +21,45 @@ All buttons pull the pin to GND.
 Arduino Pins
 ============
 
-A0 -> BUTTON (ROOT)
-03 -> Output (To Amp)
-10 -> SDCS (SD Card chip select)
-11 -> MOSI (SD Card MOSI PIN)
-12 -> MISO (SD Card MI PIN)
-13 -> SCK (SD Card SCK PIN)
-2  -> BUTTON (DOWN)
-A1 -> BUTTON (UP)
-A2 -> BUTTON (STOP)
-A3 -> BUTTON (PLAY)
-4  -> LCD RS
-5  -> LCD EN
-6  -> LCD D4
-7  -> LCD D5
-8  -> LCD D6
-9  -> LCD D7
+- A0 -> BUTTON (ROOT)
+- 03 -> Output (To Amp)
+- 10 -> SDCS (SD Card chip select)
+- 11 -> MOSI (SD Card MOSI PIN)
+- 12 -> MISO (SD Card MI PIN)
+- 13 -> SCK (SD Card SCK PIN)
+- 2  -> BUTTON (DOWN)
+- A1 -> BUTTON (UP)
+- A2 -> BUTTON (STOP)
+- A3 -> BUTTON (PLAY)
+- 4  -> LCD RS
+- 5  -> LCD EN
+- 6  -> LCD D4
+- 7  -> LCD D5
+- 8  -> LCD D6
+- 9  -> LCD D7
 
 LCD PINS
 ========
 
-LCD RS -> 4 ARDUINO
-LCD EN -> 5 ARDUINO
-LCD D4 -> 6 ARDUINO
-LCD D5 -> 7 ARDUINO
-LCD D6 -> 8 ARDUINO
-LCD D7 -> 9 ARDUINO
-VCC -> 5v
-GND -> GND
+- LCD RS -> 4 ARDUINO
+- LCD EN -> 5 ARDUINO
+- LCD D4 -> 6 ARDUINO
+- LCD D5 -> 7 ARDUINO
+- LCD D6 -> 8 ARDUINO
+- LCD D7 -> 9 ARDUINO
+- VCC -> 5v
+- GND -> GND
 
 SD CARD PINS
 ============
 
-GND -> GND
-5V -> 5V
-SDCS -> 10 ARDUINO
-MOSI -> 11 ARDUINO
-SCK -> 13 ARDUINO
-MISO -> 12 ARDUINO
-GND -> GND
+- GND -> GND
+- 5V -> 5V
+- SDCS -> 10 ARDUINO
+- MOSI -> 11 ARDUINO
+- SCK -> 13 ARDUINO
+- MISO -> 12 ARDUINO
+- GND -> GND
 
 
 Usage
@@ -81,8 +82,7 @@ Credits
 =======
 
 Code: Andrew Beer
-https://github.com/sadken
+[Github](https://github.com/sadken)
 
-LM386 circuit from StackExchange
-https://electronics.stackexchange.com/questions/65478/lm386-audio-amplifier-not-amplifying
+LM386 circuit from [StackExchange] (https://electronics.stackexchange.com/questions/65478/lm386-audio-amplifier-not-amplifying)
 
