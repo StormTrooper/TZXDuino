@@ -82,3 +82,7 @@ Credits
 
 Code: Andrew Beer
 https://github.com/sadken
+
+LM386 circuit from StackExchange
+https://electronics.stackexchange.com/questions/65478/lm386-audio-amplifier-not-amplifying
+
